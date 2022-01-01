@@ -18,6 +18,9 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Official-ify
+DERP_BUILDTYPE := Official
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_X00TD
 PRODUCT_DEVICE := X00TD
