@@ -1,8 +1,6 @@
 #
 # Copyright (C) 2020 The LineageOS Project
 #
-# Copyright (C) 2021 DerpFest
-#
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -15,7 +13,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-derp
+    $(LOCAL_PATH)/overlay-X00TD
 
 # Ramdisk
 PRODUCT_PACKAGES += \
