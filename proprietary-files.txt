@@ -1,5 +1,7 @@
 # Device proprietary files - from UL-ASUS_X00T-WW-17.2017.2012.438-user build, unless pinned
 
+vendor/lib64/libops.so
+
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
