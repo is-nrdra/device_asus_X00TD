@@ -22,5 +22,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG := X00TD_defconfig
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Inherit the proprietary files
 include vendor/asus/X00TD/BoardConfigVendor.mk
