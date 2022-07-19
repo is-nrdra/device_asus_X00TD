@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_X00TD.mk
+    $(LOCAL_DIR)/derp_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_X00TD-user \
-    xdroid_X00TD-userdebug \
-    xdroid_X00TD-eng
+    derp_X00TD-user \
+    derp_X00TD-userdebug \
+    derp_X00TD-eng
